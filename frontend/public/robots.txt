@@ -1,0 +1,7 @@
+# robots.txt for ResuAI
+# Built by Arpit Raj
+
+User-agent: *
+Allow: /
+
+Sitemap: https://rezu-ai.vercel.app/sitemap.xml

@@ -1,0 +1,11 @@
+/* TEAM */
+  Developer: Arpit Raj
+  Contact: arpitraj (at) yourdomain.com
+  Twitter: @arpit_raj
+  Location: India
+
+/* SITE */
+  Last update: 2026/04/03
+  Standards: HTML5, CSS3, Next.js, TypeScript
+  Components: Framer Motion, Lucide React, Tailwind CSS
+  Software: VS Code (Human-powered editing)

@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0D1117;
+  --color-foreground: #E5E7EB;
+  --color-surface: #111827;
+  --color-surface-elevated: #0F172A;
+  
+  --color-primary: #3B82F6;
+  --color-success: #22C55E;
+  --color-danger: #EF4444;
+  --color-muted: #9CA3AF;
+  
+  --font-sans: var(--font-inter);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    @apply antialiased selection:bg-primary/30 selection:text-white;
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-surface/40 backdrop-blur-xl border border-white/10;
+  }
+  .box-inner-shadow {
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.05);
+  }
+}
+
+.texture-bg-1 {
+  background-image: linear-gradient(rgba(13, 17, 23, 0.92), rgba(13, 17, 23, 0.92)), url('/assets/Whisk_c6a10d322a62b898dc44afd1af84674bdr.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.texture-bg-2 {
+  background-image: linear-gradient(rgba(13, 17, 23, 0.95), rgba(13, 17, 23, 0.95)), url('/assets/Whisk_d2dee1405d3309ab7a045f14edc96992dr.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.texture-bg-3 {
+  background-image: linear-gradient(rgba(13, 17, 23, 0.94), rgba(13, 17, 23, 0.94)), url('/assets/Whisk_e67d7748cbbcdf48f9f4d8eb522786ecdr.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+}

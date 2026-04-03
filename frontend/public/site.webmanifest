@@ -1,0 +1,21 @@
+{
+  "name": "ResuAI — AI Career Dashboard",
+  "short_name": "ResuAI",
+  "description": "Human-crafted AI Career Ecosystem",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0F1A",
+  "theme_color": "#3B82F6",
+  "icons": [
+    {
+      "src": "/favicon.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/favicon.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}

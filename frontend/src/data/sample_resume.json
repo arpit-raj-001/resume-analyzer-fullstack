@@ -1,0 +1,43 @@
+{
+  "name": "Alex Rivers",
+  "email": "alex.rivers@resuai.com",
+  "phone": "+1 (555) 012-3456",
+  "location": "San Francisco, CA",
+  "linkedin": "linkedin.com/in/alexrivers",
+  "summary": "Product-focused Full Stack Engineer with 7+ years of experience in building scalable web applications. Expert in React, Node.js, and AWS, with a proven track record of leading cross-functional teams to deliver high-impact software solutions. Passionate about user-centric design and performance optimization.",
+  "experience": [
+    {
+      "company": "TechNova Solutions",
+      "role": "Senior Full Stack Engineer",
+      "duration": "Jan 2021 - Present",
+      "description": "Architected and implemented a microservices-based dashboard that handles 1M+ daily active users using Next.js and Go. Improved frontend performance by 45% through advanced code-split strategies and edge caching. Mentored 4 junior developers and established codebase best practices."
+    },
+    {
+      "company": "Streamline AI",
+      "role": "Full Stack Developer",
+      "duration": "Jun 2018 - Dec 2020",
+      "description": "Developed core features for an AI-powered logistics platform using React, Python, and PostgreSQL. Reduced cloud infrastructure costs by 30% by optimizing Docker container orchestration on Kubernetes. Led the migration of legacy REST APIs to GraphQL, improving data fetching efficiency."
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of California, Berkeley",
+      "degree": "B.S. in Computer Science",
+      "duration": "2012 - 2016",
+      "description": "Graduated with Honors. Specialized in Distributed Systems and Artificial Intelligence."
+    }
+  ],
+  "projects": [
+    {
+      "title": "OpenDocs.ai",
+      "tech_stack": "Next.js, LangChain, Pinecone",
+      "description": "An open-source RAG platform for querying massive PDF documentation sets. Used by 500+ developers monthly."
+    },
+    {
+      "title": "NexusCorp",
+      "tech_stack": "Rust, WebAssembly, React",
+      "description": "A high-performance IDE built for the browser with real-time collaboration features."
+    }
+  ],
+  "skills": "JavaScript (ES6+), TypeScript, React, Next.js, Node.js, Go, Rust, AWS, Docker, Kubernetes, PostgreSQL, MongoDB, GraphQL, Tailwind CSS, Framer Motion"
+}
